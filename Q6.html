@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var students = ['David', 'Vinoth', 'Divya', 'Ishitha ', 'Thomas ']
+        for (var i = 0; i < students.length; i++) {
+
+            var marks = prompt("Enter marks ")
+
+            if (marks < 60) {
+                document.write(students[i] + " Marks : " + marks + " Grade : fail" + "<br>")
+            }
+            else if (marks >= 60 && marks < 70) {
+                document.write(students[i] + " Marks : " + marks + " Grade : D" + "<br>")
+            }
+            else if (marks >= 70 && marks < 80) {
+                document.write(students[i] + " Marks : " + marks + " Grade : C" + "<br>")
+            }
+            else if (marks >= 80 && marks < 90) {
+                document.write(students[i] + " Marks : " + marks + " Grade : B" + "<br>")
+            }
+            else if (marks >= 90 && marks < 100) {
+                document.write(students[i] + " Marks : " + marks + " Grade : A" + "<br>")
+            }
+
+        }
+
+    </script>
+</body>
+
+</html>
